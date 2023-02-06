@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 // import firebase from "../../../Utils/Firebase";
 // import PagandoLogo from "../../../assets/svg/Imagotipo_Vertical_-_V1.svg";
 import PagandoLogo from "../../assets/svg/Imagotipo_Vertical_-_V1.svg"
+import { Link } from "react-router-dom";
 import verificationImage from "../../assets/webp/perro-pug-en-el-jardin-770x470.webp";
 // import axios from "axios";
 // import "firebase/auth";
@@ -30,8 +31,8 @@ export default function LoginForm(props) {
     setVerifyEmail(!verifyEmail);
     // }
   };
-  const onSubmit = () => {
-    
+  const onSubmit = (e, menu) => {
+      console.log(menu);
   }
   // const onChange = (e) => {
   //   setFormData({
@@ -132,7 +133,8 @@ export default function LoginForm(props) {
               <div className="login-form__button">
                 <Button
                   type="submit"
-                  onClick={onSubmit}
+                  as={Link}
+                  to='/userLogged'
                   className="continue-button"
                   loading={isLoading}
                 >

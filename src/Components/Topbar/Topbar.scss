@@ -1,0 +1,56 @@
+@import "../../scss/index.scss";
+
+.topbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $background-light;
+    box-shadow: 5px 3px 8px #888888a1;
+}
+.logo-pagando {
+    width: 3rem;
+}
+.test {
+    background-color: transparent;
+}
+.MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type) {
+    /* border-top-right-radius: 0; */
+    /* border-bottom-right-radius: 0; */
+    /* border-right: 1px solid #bdbdbd; */
+    /* border-color: #1565c0; */
+}
+.MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type) {
+    /* border-top-right-radius: 0; */
+    /* border-bottom-right-radius: 0; */
+    /* border-right: 1px solid #bdbdbd; */
+    /* border-color: #1565c0; */
+}
+.MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    /* border-right: 1px solid #bdbdbd; */
+    /* border-color: #1565c0; */
+}
+// import React, { useState } from "react";
+// import IconButton from '@mui/material/IconButton';
+// import NotificationsIcon from '@mui/icons-material/Notifications';
+// import LogoPagando from "../../assets/png/pagandoIsotipo.png"
+// import "./Topbar.scss";
+
+// export default function Topbar() {
+
+//     return (
+//         <div className="topbar">
+//             <div className="left-content">
+//                 <img className="logo-pagando" src={LogoPagando} alt="" />
+//             </div>
+//             <h2>100.00 BUSD</h2>
+//             <div>
+//                 <IconButton>
+//                     <NotificationsIcon clas sx= {{}}/>
+//                 </IconButton>
+//             </div>
+//         </div>
+//     )
+// }

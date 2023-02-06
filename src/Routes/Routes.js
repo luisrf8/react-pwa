@@ -8,7 +8,7 @@ export default function Router() {
   return (
     <Routes>
       <Route path='/' element={<LoginForm />}/>
-      <Route path='/userLogged' exact element={<Home/>}/>
+      <Route path='/logged'  element={<Home/>}/>
     </Routes>
   )
 }
